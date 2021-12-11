@@ -1,13 +1,13 @@
-name: Build and Publish
+name: Build and Publish - Latest
 
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build-and-push-docker-image:
-    name: Build and Push Docker Image [master]
+    name: Build and Push Docker Image [main]
 
     runs-on: ubuntu-latest
 
